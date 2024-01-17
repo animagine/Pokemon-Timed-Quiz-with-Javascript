@@ -33,6 +33,11 @@ function countdown() {
     }, 1000);
 };
 
+// local storage of variables by the quizz function
+var questionOutput = [];
+var answerChoices = [];
+var finalScore = null;
+
 //Setting up quiz funtionality
 function Quiz() {
    
