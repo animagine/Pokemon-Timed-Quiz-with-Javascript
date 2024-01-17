@@ -45,9 +45,9 @@ function Quiz() {
 
     // Function to display the current question and options
     function displayQuestion() {
-        if (currentQuestionIndex < Quiz.length) {
+        if (currentQuestionIndex < PQuiz.length) {
             // Get the current question and options
-            const currentQuestion = Quiz[currentQuestionIndex];
+            const currentQuestion = PQuiz[currentQuestionIndex];
             const questionOutput = currentQuestion.question;
             const answerChoices = currentQuestion.answers;
             const correctChoice = currentQuestion.correctAnswer;
@@ -136,6 +136,6 @@ function endGame() {
         };
         setTimeout(function(){
             feedback.setAttribute("class","feedback hide"); 
-        }, 1500); 
+        }, 2000); 
     })
 };

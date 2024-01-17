@@ -1,5 +1,5 @@
 // Questions and answers for quiz
-var Quiz = [
+var PQuiz = [
     {
         question: "1. Pokemon is short for what?:",
         answers: ['1. Pocket Money','2. Pocket Monsters','3. Pork Meat','4. Pocket Moon'],
