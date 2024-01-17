@@ -28,7 +28,7 @@ N/A
 ![View Highscore](https://github.com/animagine/Timed-Quiz-with-Javascript/blob/d333b814dae6219d88abb04cc40c3693df3746c7/assets/images/Highscore%20page.png)
 
 ## Deployment
-[Pokemon Quiz](https://animagine.github.io/Timed-Quiz-with-Javascript/)
+[Pokemon Quiz](https://animagine.github.io/Pokemon-Timed-Quiz-with-Javascript/))
 
 ## License
 [MIT License](https://github.com/animagine/Timed-Quiz-with-Javascript/blob/a47343293efc07b19a59f5c6ea01e59211088e08/LICENSE)
