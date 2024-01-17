@@ -1,5 +1,5 @@
 # A simple Pokemon trivia built with HTML, CSS, and Javascript.
-This application features a timer, a multiple-choice quiz, and a high score tracker.
+This application features a timer, a multiple-choice quiz, and a high-score tracker.
 
 ## Acceptance criteria
 The following guides helped to ensure that the application worked as it should.
@@ -16,12 +16,16 @@ The following guides helped to ensure that the application worked as it should.
 -  WHEN the game is over
 -  THEN I can save my initials and score
 -  WHEN I save my initials and score
--  THEN I can view the highscore page.
+-  THEN I can view the high-score page.
 
 ## Installation
 N/A
 
 ## Screenshots
+![Start Quiz](https://github.com/animagine/Timed-Quiz-with-Javascript/blob/d333b814dae6219d88abb04cc40c3693df3746c7/assets/images/start%20quiz.png)
+![Quiz page](https://github.com/animagine/Timed-Quiz-with-Javascript/blob/d333b814dae6219d88abb04cc40c3693df3746c7/assets/images/Question%20page.png)
+![Save score](https://github.com/animagine/Timed-Quiz-with-Javascript/blob/d333b814dae6219d88abb04cc40c3693df3746c7/assets/images/Save%20highscore.png)
+![View Highscore](https://github.com/animagine/Timed-Quiz-with-Javascript/blob/d333b814dae6219d88abb04cc40c3693df3746c7/assets/images/Highscore%20page.png)
 
 ## Deployment
 [Pokemon Quiz](https://animagine.github.io/Timed-Quiz-with-Javascript/)
