@@ -101,11 +101,36 @@ function Quiz() {
     displayQuestion();
 }
 
-//Event listener to trigger quiz start and timer
+//Event listener to trigger the quiz and timer
 start.addEventListener("click",function() {
-    countdown();    //When clicked start the countdown
-    startScreen.setAttribute("class","hide"); //Hide start-screen
-    questionsPage.setAttribute("class","start"); //Move on to the questions in questions.js
+    countdown();    
+    startScreen.setAttribute("class","hide"); 
+    questionsPage.setAttribute("class","start"); 
     Quiz();
 });
 
+function endGame() {
+    questionsPage.setAttribute("class","hide"); 
+    endScreen.setAttribute("class","start"); 
+    timerText.setAttribute("class","hide");
+    if(finalScore >0){
+        score.textContent = finalScore;
+    } else {
+        score.textContent = 0;
+    };
+
+    //Store initials and score of user to localStorage and redirect to Highscore page
+    submit.addEventListener("click", function(){
+        var userInitials = initials.value;
+        if(userInitials.length <= JSON.parse(initials.getAttribute("max"))) {
+            localStorage.setItem("score",JSON.stringify([userInitials, score.textContent]));
+            window.location.href = "highscores.html";
+        } else {
+            feedback.setAttribute("class","feedback start");
+            feedback.textContent = "Maximum character of 3!"
+        };
+        setTimeout(function(){
+            feedback.setAttribute("class","feedback hide"); 
+        }, 1500); 
+    })
+};
