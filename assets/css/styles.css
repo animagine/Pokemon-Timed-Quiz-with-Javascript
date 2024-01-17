@@ -1,6 +1,10 @@
 body {
   font-family: Arial;
   font-size: 120%;
+  background-color: bisque;
+  background-image: url(assets/images/bg.jpg);
+  background-size: cover;
+  background-repeat: repeat;
 }
 
 a {
