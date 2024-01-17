@@ -1,5 +1,5 @@
-# A simple Pokemon trivia built with Html,CSS and Javascript.
-This application features a timer, multiple-choice quiz and a highscore tracker.
+# A simple Pokemon trivia built with HTML, CSS, and Javascript.
+This application features a timer, a multiple-choice quiz, and a high score tracker.
 
 ## Acceptance criteria
 The following guides helped to ensure that the application worked as it should.
@@ -22,3 +22,7 @@ The following guides helped to ensure that the application worked as it should.
 N/A
 
 ## Screenshots
+
+## Deployment
+[Pokemon Quiz](https://animagine.github.io/Timed-Quiz-with-Javascript/)
+
