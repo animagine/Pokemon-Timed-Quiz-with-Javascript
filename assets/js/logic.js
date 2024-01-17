@@ -11,4 +11,21 @@ var submit = document.getElementById('submit');
 var feedback = document.getElementById('feedback'); 
 var questionsPage = document.getElementById('questions');
 var questions = document.getElementById('question-title');
-var choices = document.getElementById('choices'); 
+var choices = document.getElementById('choices');
+
+
+// Initialize quiz timer
+var timeLeft = 100; 
+function countdown() {
+    // Using 'setInterval()' method to count down every 1000ms
+    var timeInterval = setInterval(function(){
+        //conditional statement for counter for when the value reaches 0
+        if (timeLeft > 0) {
+            timer.textContent = timeLeft + 's';
+            timeLeft--;
+        } else {
+            timer.textContent = 0 + 's';
+            endGame();
+        }
+    }, 1000);
+};
