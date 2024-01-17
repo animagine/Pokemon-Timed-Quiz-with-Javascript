@@ -30,3 +30,6 @@ N/A
 ## Deployment
 [Pokemon Quiz](https://animagine.github.io/Timed-Quiz-with-Javascript/)
 
+## License
+[MIT License](https://github.com/animagine/Timed-Quiz-with-Javascript/blob/a47343293efc07b19a59f5c6ea01e59211088e08/LICENSE)
+
