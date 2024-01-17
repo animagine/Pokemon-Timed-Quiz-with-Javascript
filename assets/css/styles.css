@@ -54,15 +54,15 @@ li {
 }
 
 li button {
-  display:flex;
+  display: flex;
 }
 
-#highscores li {
+#highscores ol {
   padding: 5px;
   list-style: decimal inside none;
 }
 
-#highscores li:nth-child(odd) {
+#highscores ol:nth-child(odd) {
   background-color: #f3edfc;
 }
 
